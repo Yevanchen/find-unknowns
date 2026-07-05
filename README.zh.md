@@ -1,6 +1,6 @@
 # 受 Thariq 启发的智能体未知项指南
 
-[![skills.sh](https://skills.sh/b/Yevanchen/thariq-shihipar-skills)](https://skills.sh/Yevanchen/thariq-shihipar-skills/find-unknowns)
+[![skills.sh](https://skills.sh/b/yevanchen/thariq-shihipar-skills)](https://skills.sh/yevanchen/thariq-shihipar-skills)
 
 一个单一的 `CLAUDE.md` 文件，用于改善智能体式编码行为，源自 [Thariq Shihipar 的实践指南](https://x.com/trq212/status/2073100352921215386)：在实现前、实现中、实现后持续发现未知项。
 
@@ -91,13 +91,13 @@
 用 Skills CLI 安装可复用 skill：
 
 ```bash
-npx skills add Yevanchen/thariq-shihipar-skills --skill find-unknowns
+npx skills add yevanchen/thariq-shihipar-skills --skill find-unknowns
 ```
 
 不安装直接使用：
 
 ```bash
-npx skills use Yevanchen/thariq-shihipar-skills --skill find-unknowns
+npx skills use yevanchen/thariq-shihipar-skills --skill find-unknowns
 ```
 
 **选项 B：Claude Code 插件**
@@ -105,7 +105,7 @@ npx skills use Yevanchen/thariq-shihipar-skills --skill find-unknowns
 在 Claude Code 中，首先添加插件市场：
 
 ```
-/plugin marketplace add Yevanchen/thariq-shihipar-skills
+/plugin marketplace add yevanchen/thariq-shihipar-skills
 ```
 
 然后安装插件：
@@ -121,14 +121,14 @@ npx skills use Yevanchen/thariq-shihipar-skills --skill find-unknowns
 新项目：
 
 ```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/Yevanchen/thariq-shihipar-skills/main/CLAUDE.md
+curl -o CLAUDE.md https://raw.githubusercontent.com/yevanchen/thariq-shihipar-skills/main/CLAUDE.md
 ```
 
 已有项目（追加）：
 
 ```bash
 echo "" >> CLAUDE.md
-curl https://raw.githubusercontent.com/Yevanchen/thariq-shihipar-skills/main/CLAUDE.md >> CLAUDE.md
+curl https://raw.githubusercontent.com/yevanchen/thariq-shihipar-skills/main/CLAUDE.md >> CLAUDE.md
 ```
 
 ## 在 Cursor 中使用

@@ -1,6 +1,6 @@
 {
-  "name": "thariq-skills",
-  "id": "thariq-skills",
+  "name": "find-unknowns",
+  "id": "find-unknowns",
   "owner": {
     "name": "Yevanchen"
   },
@@ -10,7 +10,7 @@
   },
   "plugins": [
     {
-      "name": "thariq-shihipar-skills",
+      "name": "find-unknowns",
       "source": "./",
       "description": "Behavioral guidelines for finding unknowns: Map the Unknowns, Discover Before Coding, Track During Implementation, Close the Loop",
       "version": "1.0.0",

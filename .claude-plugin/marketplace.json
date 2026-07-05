@@ -1,0 +1,29 @@
+{
+  "name": "thariq-skills",
+  "id": "thariq-skills",
+  "owner": {
+    "name": "Yevanchen"
+  },
+  "metadata": {
+    "description": "Behavioral guidelines for finding task unknowns before, during, and after agentic coding work, derived from Thariq Shihipar's field guide",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "thariq-shihipar-skills",
+      "source": "./",
+      "description": "Behavioral guidelines for finding unknowns: Map the Unknowns, Discover Before Coding, Track During Implementation, Close the Loop",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yevanchen"
+      },
+      "keywords": [
+        "guidelines",
+        "best-practices",
+        "coding",
+        "unknowns"
+      ],
+      "category": "workflow"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "thariq-shihipar-skills",
+  "description": "Behavioral guidelines for finding task unknowns before, during, and after agentic coding work, derived from Thariq Shihipar's field guide",
+  "version": "1.0.0",
+  "author": {
+    "name": "Yevanchen"
+  },
+  "license": "MIT",
+  "keywords": ["guidelines", "best-practices", "coding", "unknowns"],
+  "skills": ["./skills/find-unknowns"]
+}
